@@ -3,4 +3,9 @@
   <Module PersistentId="AC8712E4-A45C-4A52-A7E7-7952C100A1C6" ModuleId="Crm" />
   <Module PersistentId="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2" ModuleId="Events" />
   <Module PersistentId="E7E96149-0BF9-4574-ADD9-258927115790" ModuleId="SmartClient" />
+  <Module PersistentId="3CFC668E-B93B-44EC-AA5A-B95C0873AC25" ModuleId="Shipping.Server" />
+  <Module PersistentId="7B3CD322-AADC-458A-A2B2-6F7A45418735" ModuleId="Shipping.Server.Test" />
+  <Module PersistentId="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD" ModuleId="Shipping.Sagas" />
+  <Module PersistentId="49231426-8599-4E9C-8711-57BA4813B73D" ModuleId="Shipping.Commands" />
+  <Module PersistentId="E1E62864-4B55-418B-859F-7706B1A43FE8" ModuleId="Shipping.Events" />
 </Modules>
