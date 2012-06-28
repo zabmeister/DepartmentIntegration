@@ -1,0 +1,5 @@
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Events\bin\Debug\Crm.Events.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Events\bin\Debug\Crm.Events.pdb
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Events\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Events\obj\Debug\Crm.Events.dll
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Events\obj\Debug\Crm.Events.pdb

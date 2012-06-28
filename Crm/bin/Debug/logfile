@@ -1,0 +1,55 @@
+2012-06-28 11:24:32,842 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:24:32,904 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 11:24:32,998 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:24:33,107 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 11:24:33,107 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 11:24:33,278 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:24:33,278 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:24:39,019 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\crm.server.retries does not exist.
+2012-06-28 11:24:40,018 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\crm.server.timeouts does not exist.
+2012-06-28 11:24:40,954 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\crm.server does not exist.
+2012-06-28 11:24:48,161 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing sales.server@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 11:37:36,792 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:37:36,901 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 11:37:37,011 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:37:37,104 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 11:37:37,120 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 11:37:37,260 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:37:37,260 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:42:14,033 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:42:14,158 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 11:42:14,221 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:42:14,455 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 11:42:14,470 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 11:42:14,611 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:42:14,611 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:42:21,537 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 11:44:26,088 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:44:26,181 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 11:44:26,259 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:44:26,368 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 11:44:26,384 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 11:44:26,540 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:44:26,540 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:44:34,090 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:15:01,838 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 13:15:01,947 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 13:15:02,103 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 13:15:02,212 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 13:15:02,228 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 13:15:02,399 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 13:15:02,415 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 13:15:10,459 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing sales.server@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:15:11,582 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:25:40,797 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 13:25:40,872 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Crm\bin\Debug\License\License.xml
+2012-06-28 13:25:40,938 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 13:25:41,034 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 13:25:41,049 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-28 13:25:41,205 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 13:25:41,205 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 13:25:47,457 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:25:48,603 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:25:58,616 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:33:06,558 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient-a0ef897d-04a2-4b27-9c93-cf0080e22928@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2012-06-28 13:33:22,764 [Worker.8] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing smartclient-2b8e5274-9998-419a-a056-b19b23da87d4@smt65 to message type Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null

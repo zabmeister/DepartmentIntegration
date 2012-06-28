@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A" ModuleId="Sales" />
+  <Module PersistentId="AC8712E4-A45C-4A52-A7E7-7952C100A1C6" ModuleId="Crm" />
+  <Module PersistentId="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2" ModuleId="Events" />
+  <Module PersistentId="E7E96149-0BF9-4574-ADD9-258927115790" ModuleId="SmartClient" />
+</Modules>

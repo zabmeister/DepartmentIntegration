@@ -1,0 +1,36 @@
+2012-06-28 11:23:50,760 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:23:50,838 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-28 11:23:50,901 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:23:51,088 [1] FATAL NServiceBus.Hosting.GenericHost [(null)] <(null)> - System.ArgumentException: Problem loading message assembly: Messages ---> System.IO.FileNotFoundException: Could not load file or assembly 'Messages' or one of its dependencies. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NServiceBus.Unicast.Config.ConfigUnicastBus.ConfigureBusProperties(UnicastBusConfig unicastConfig) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast.Config\ConfigUnicastBus.cs:line 101
+   --- End of inner exception stack trace ---
+   at NServiceBus.Unicast.Config.ConfigUnicastBus.ConfigureBusProperties(UnicastBusConfig unicastConfig) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast.Config\ConfigUnicastBus.cs:line 107
+   at NServiceBus.Unicast.Config.ConfigUnicastBus.RegisterMessageOwnersAndBusAddress() in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast.Config\ConfigUnicastBus.cs:line 73
+   at NServiceBus.Unicast.Config.ConfigUnicastBus.Configure(Configure config) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast.Config\ConfigUnicastBus.cs:line 43
+   at NServiceBus.ConfigureUnicastBus.UnicastBus(Configure config) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast.Config\ConfigureUnicastBus.cs:line 21
+   at NServiceBus.Hosting.Windows.Roles.Handlers.ServerRoleHandler.ConfigureRole(IConfigureThisEndpoint specifier) in c:\TeamCity\buildAgent\work\nsb.master_4\src\hosting\NServiceBus.Hosting.Windows\Roles\Handlers\ServerRoleHandler.cs:line 23
+   at NServiceBus.Hosting.Roles.RoleManager.ConfigureBusForEndpoint(IConfigureThisEndpoint specifier) in c:\TeamCity\buildAgent\work\nsb.master_4\src\hosting\NServiceBus.Hosting\Roles\RoleManager.cs:line 52
+   at NServiceBus.Hosting.GenericHost.PerformConfiguration() in c:\TeamCity\buildAgent\work\nsb.master_4\src\hosting\NServiceBus.Hosting\GenericHost.cs:line 120
+   at NServiceBus.Hosting.GenericHost.Start() in c:\TeamCity\buildAgent\work\nsb.master_4\src\hosting\NServiceBus.Hosting\GenericHost.cs:line 28
+2012-06-28 11:24:32,857 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 11:24:32,966 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-28 11:24:33,029 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 11:24:33,138 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 11:24:33,434 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:24:33,450 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 11:24:38,723 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\sales.server.retries does not exist.
+2012-06-28 11:24:39,612 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\sales.server.timeouts does not exist.
+2012-06-28 11:24:40,642 [1] WARN  NServiceBus.Utils.MsmqUtilities [(null)] <(null)> - Queue smt65\private$\sales.server does not exist.
+2012-06-28 11:24:41,593 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue crm.server@smt65
+2012-06-28 12:36:30,234 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-28 12:36:30,375 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-28 12:36:30,390 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-28 12:36:30,499 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-28 12:36:30,609 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 12:36:30,609 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-28 12:36:33,931 [1] INFO  NServiceBus.Unicast.UnicastBus [(null)] <(null)> - Subscribing to Crm.Events.CustomerStatusUpdated, Crm.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null at publisher queue crm.server@smt65

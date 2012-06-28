@@ -1,0 +1,9 @@
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\App.g.cs
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\SmartClient_MarkupCompile.cache
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\Views\IncomingMessagesView.baml
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\Views\IncomingMessagesView.g.cs
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\SmartClient.g.resources
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\SmartClient.Properties.Resources.resources
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\obj\x86\Debug\GenerateResource.write.1.tlog

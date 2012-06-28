@@ -1,0 +1,68 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2/f:CustomerStatusUpdated.cs" caret="134" fromTop="6" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:App.config" caret="321" fromTop="7" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:App.config" caret="0" fromTop="0" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="230" fromTop="9" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="182" fromTop="9" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="295" fromTop="9" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="141" fromTop="5" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="151" fromTop="4" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="152" fromTop="4" />
+      <File id="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2/f:CustomerStatusUpdated.cs" caret="31" fromTop="2" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:App.config" caret="321" fromTop="7" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="239" fromTop="9" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="141" fromTop="8" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="823" fromTop="33" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="519" fromTop="20" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="13" fromTop="0" />
+      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="710" fromTop="17" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="328" fromTop="9" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="39" fromTop="2" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="string" priority="31" />
+      <Item value="Guid`0" priority="64" />
+      <Item value="public" priority="31" />
+      <Item value="AsA_Publisher`0" priority="31" />
+      <Item value="AsA_Server`0" priority="31" />
+      <Item value="IWantCustomInitialization`0" priority="95" />
+      <Item value="CustomerId" priority="31" />
+      <Item value="CustomerStatus" priority="32" />
+      <Item value="eventMessage" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crm.Events.CustomerStatusUpdated">
+      <Item value="CustomerId" priority="26" />
+      <Item value="CustomerStatus" priority="22" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
