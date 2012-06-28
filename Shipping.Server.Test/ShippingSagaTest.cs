@@ -5,7 +5,6 @@ using Shipping.Messages;
 
 namespace Shipping.Sagas.Tests
 {
-    //Note: some note
     [TestClass]
     public class ShippingSagaTest
     {
@@ -63,16 +62,25 @@ namespace Shipping.Sagas.Tests
         }
 
         [TestMethod]
+        public void When_fedex_timeout_should_send_to_ups()
+        {
+            //NOTE: This initializes e.g. the bus
+            Test.Initialize();
+
+            Test.Saga<ShippingSaga>()
+                .ExpectSend<ShipToUps>()
+                .When(s => s.Timeout(new FedexTimedout()));
+        }  
+
+        [TestMethod]
         public void When_ups_timeout_should_send_shipping_failed()
         {
             //NOTE: This initializes e.g. the bus
             Test.Initialize();
 
-            var upsResponse = new UpsResponse { UpsTrackingCode = Guid.NewGuid() };
-
             Test.Saga<ShippingSaga>()
                 .ExpectReplyToOrginator<ShippingFailed>()
-                .When(s => s.Handle(new UpsTimeout()));
+                .When(s => s.Timeout(new UpsTimeout()));
         }  
     }
 }

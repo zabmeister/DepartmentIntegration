@@ -50,7 +50,7 @@ namespace Shipping.Sagas
 
         public void Timeout(UpsTimeout state)
         {
-            Bus.Send<ShippingFailed>(s => s.OrderId = Data.OrderId);
+            ReplyToOriginator<ShippingFailed>(s => s.OrderId = Data.OrderId);
         }
     }
 }
