@@ -8,4 +8,5 @@
   <Module PersistentId="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD" ModuleId="Shipping.Sagas" />
   <Module PersistentId="49231426-8599-4E9C-8711-57BA4813B73D" ModuleId="Shipping.Commands" />
   <Module PersistentId="E1E62864-4B55-418B-859F-7706B1A43FE8" ModuleId="Shipping.Events" />
+  <Module PersistentId="3C2048FE-7EA8-408A-813D-DF0F44188BDB" ModuleId="Shipping.Fedex.Proxy" />
 </Modules>

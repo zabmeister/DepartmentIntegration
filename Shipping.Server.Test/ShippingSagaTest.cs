@@ -30,7 +30,7 @@ namespace Shipping.Sagas.Tests
             var shipOrder = new ShipOrder { OrderId = Guid.NewGuid() };
 
             Test.Saga<ShippingSaga>()
-                .ExpectTimeoutToBeSetIn<FedexTimedout>((f, t) =>t == TimeSpan.FromMinutes(60))
+                .ExpectTimeoutToBeSetIn<FedexTimedout>((f, t) =>t == TimeSpan.FromMinutes(15))
                 .When(s => s.Handle(shipOrder));
         }
 
