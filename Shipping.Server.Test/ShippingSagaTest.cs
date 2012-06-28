@@ -5,6 +5,7 @@ using Shipping.Messages;
 
 namespace Shipping.Sagas.Tests
 {
+    //Note: some note
     [TestClass]
     public class ShippingSagaTest
     {
@@ -59,6 +60,19 @@ namespace Shipping.Sagas.Tests
                          s.TrackingCode == upsResponse.UpsTrackingCode
                 )
                 .When(s => s.Handle(upsResponse));
-        }     
+        }
+
+        [TestMethod]
+        public void When_ups_timeout_should_send_shipping_failed()
+        {
+            //NOTE: This initializes e.g. the bus
+            Test.Initialize();
+
+            var upsResponse = new UpsResponse { UpsTrackingCode = Guid.NewGuid() };
+
+            Test.Saga<ShippingSaga>()
+                .ExpectReplyToOrginator<ShippingFailed>()
+                .When(s => s.Handle(new UpsTimeout()));
+        }  
     }
 }
