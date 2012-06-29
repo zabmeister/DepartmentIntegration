@@ -25,7 +25,7 @@ namespace Sales.Server
                 if (string.Compare(read, "p", StringComparison.InvariantCultureIgnoreCase) == 0)
                 {
                     Guid guid = Guid.NewGuid();
-                    Bus.Send<PlaceOrder>(m => m.OrderId = guid);
+                    Bus.SendLocal<PlaceOrder>(m => m.OrderId = guid);
                     lastOrderGuid = guid;
                     Console.WriteLine("Published event PlaceOrder: {0}", guid);
                 }
@@ -33,7 +33,7 @@ namespace Sales.Server
                 if (string.Compare(read, "c", StringComparison.InvariantCultureIgnoreCase) == 0)
                 {
                     Guid guid = lastOrderGuid;
-                    Bus.Send<CancelOrder>(m => m.OrderId = guid);
+                    Bus.SendLocal<CancelOrder>(m => m.OrderId = guid);
                     Console.WriteLine("Published event CancelOrder: {0}", guid);
                 }
             }

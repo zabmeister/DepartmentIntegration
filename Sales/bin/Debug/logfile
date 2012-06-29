@@ -268,3 +268,81 @@ System.InvalidOperationException: No handlers could be found for message type: S
    at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
 2012-06-29 11:18:31,278 [Worker.8] ERROR NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Message has failed the maximum number of times allowed, ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391.
 2012-06-29 11:18:35,661 [Worker.11] INFO  SecondLevelRetries [(null)] <(null)> - Defer message and send it to sales.server@smt65 using the timeout manager at sales.server.timeouts@smt65
+2012-06-29 11:22:22,835 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-29 11:22:22,913 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-29 11:22:23,053 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-29 11:22:23,147 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-29 11:22:23,303 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:22:23,350 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:22:31,306 [Worker.8] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391
+System.InvalidOperationException: No handlers could be found for message type: Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1261
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1181
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2012-06-29 11:22:32,382 [Worker.8] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391
+System.InvalidOperationException: No handlers could be found for message type: Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1261
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1181
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2012-06-29 11:22:33,240 [Worker.8] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391
+System.InvalidOperationException: No handlers could be found for message type: Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1261
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1181
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2012-06-29 11:22:34,114 [Worker.8] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391
+System.InvalidOperationException: No handlers could be found for message type: Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1261
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1181
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2012-06-29 11:22:34,972 [Worker.8] WARN  NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Failed raising 'transport message received' event for message with ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391
+System.InvalidOperationException: No handlers could be found for message type: Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.HandleTransportMessage(IBuilder childBuilder, TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1261
+   at NServiceBus.Unicast.UnicastBus.TransportMessageReceived(Object sender, TransportMessageReceivedEventArgs e) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 1181
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at NServiceBus.Unicast.Transport.Transactional.TransactionalTransport.OnTransportMessageReceived(TransportMessage msg) in c:\TeamCity\buildAgent\work\nsb.master_4\src\impl\unicast\transport\NServiceBus.Unicast.Transport.Transactional\TransactionalTransport.cs:line 480
+2012-06-29 11:22:35,814 [Worker.8] ERROR NServiceBus.Unicast.Transport.Transactional.TransactionalTransport [(null)] <(null)> - Message has failed the maximum number of times allowed, ID=ea97d595-66fd-4391-9bca-9d83e4d87d72\13391.
+2012-06-29 11:22:35,845 [Worker.11] INFO  SecondLevelRetries [(null)] <(null)> - Send message to error queue, error@smt65
+2012-06-29 11:23:49,105 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-29 11:23:49,183 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-29 11:23:49,573 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-29 11:23:49,698 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-29 11:23:49,885 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:23:49,885 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:24:00,415 [5] ERROR Sales.Server.ServerEndpoint [(null)] <(null)> - Problem occurred when starting the endpoint.
+System.InvalidOperationException: No destination specified for message(s): Sales.Messages.PlaceOrder
+   at NServiceBus.Unicast.UnicastBus.<>c__DisplayClass14.<SendMessage>b__10(Address address) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 690
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at NServiceBus.Unicast.UnicastBus.SendMessage(IEnumerable`1 addresses, String correlationId, MessageIntentEnum messageIntent, Object[] messages) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 686
+   at NServiceBus.Unicast.UnicastBus.SendMessage(Address address, String correlationId, MessageIntentEnum messageIntent, Object[] messages) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 666
+   at NServiceBus.Unicast.UnicastBus.NServiceBus.IBus.Send(Object[] messages) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 558
+   at NServiceBus.Unicast.UnicastBus.NServiceBus.IBus.Send[T](Action`1 messageConstructor) in c:\TeamCity\buildAgent\work\nsb.master_4\src\unicast\NServiceBus.Unicast\UnicastBus.cs:line 551
+   at Sales.Server.ServerEndpoint.Run() in C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Sales\ServerEndpoint.cs:line 28
+   at NServiceBus.Hosting.Configuration.ConfigManager.<>c__DisplayClass1.<Startup>b__0() in c:\TeamCity\buildAgent\work\nsb.master_4\src\hosting\NServiceBus.Hosting\Configuration\ConfigurationManager.cs:line 70
+2012-06-29 11:24:54,672 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-29 11:24:54,750 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-29 11:24:54,890 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-29 11:24:55,093 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-29 11:24:55,265 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:24:55,265 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:27:14,035 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-29 11:27:14,113 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-29 11:27:14,191 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-29 11:27:14,300 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-29 11:27:14,456 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:27:14,456 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:28:21,331 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Checking available license...
+2012-06-29 11:28:21,393 [1] INFO  NServiceBus.Licensing [(null)] <(null)> - Could not find license file: C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Sales\bin\Debug\License\License.xml
+2012-06-29 11:28:21,565 [1] WARN  NServiceBus.Licensing [(null)] <(null)> - No valid license file was found. The host will be limited to 1 worker thread.
+2012-06-29 11:28:21,783 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Server configured
+2012-06-29 11:28:21,814 [1] INFO  NServiceBus.Hosting.Roles.RoleManager [(null)] <(null)> - Role NServiceBus.AsA_Publisher is marked.
+2012-06-29 11:28:21,986 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.Production, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:28:22,017 [1] INFO  NServiceBus.Host [(null)] <(null)> - Going to activate profile: NServiceBus.PerformanceCounters, NServiceBus.Host, Version=3.2.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c
+2012-06-29 11:28:31,346 [Worker.8] INFO  NServiceBus.Unicast.MessagingBestPractices [(null)] <(null)> - You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you
+2012-06-29 11:28:32,532 [Worker.8] INFO  NServiceBus.Unicast.MessagingBestPractices [(null)] <(null)> - You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you
+2012-06-29 11:28:33,483 [Worker.8] INFO  NServiceBus.Unicast.MessagingBestPractices [(null)] <(null)> - You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you
+2012-06-29 11:28:34,435 [Worker.8] INFO  NServiceBus.Unicast.MessagingBestPractices [(null)] <(null)> - You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you
+2012-06-29 11:28:35,418 [Worker.8] INFO  NServiceBus.Unicast.MessagingBestPractices [(null)] <(null)> - You are using a basic message to do pub/sub, consider implementing the more specific ICommand and IEvent interfaces to help NServiceBus to enforce messaging best practices for you

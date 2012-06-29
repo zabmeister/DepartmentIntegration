@@ -69,6 +69,10 @@
       <Project>{49231426-8599-4E9C-8711-57BA4813B73D}</Project>
       <Name>Shipping.Messages</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Shipping.Sagas\Shipping.Sagas.csproj">
+      <Project>{84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD}</Project>
+      <Name>Shipping.Sagas</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

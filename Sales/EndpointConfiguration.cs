@@ -2,7 +2,7 @@
 
 namespace Sales.Server
 {
-    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Server, IWantCustomInitialization
+    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
     {
         public void Init()
         {
