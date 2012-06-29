@@ -1,13 +1,13 @@
 ﻿using NServiceBus;
 
-namespace Shipping.Fedex.ProxyServer
+namespace Shipping.ProxyServer
 {
-    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
+    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Server, IWantCustomInitialization
     {
         public void Init()
         {
             Configure.With()
-                     .DefiningEventsAs(t => t.Namespace != null && t.Namespace.Contains(".Messages"));
+                     .DefiningMessagesAs(t => t.Namespace != null && t.Namespace.Contains("Shipping.Messages"));
         }
     }
 }

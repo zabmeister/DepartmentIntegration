@@ -15,6 +15,8 @@ namespace Shipping.Sagas
     {
         public void Handle(ShipOrder message)
         {
+            Console.WriteLine("Saga: ShipOrder");
+            
             Data.OrderId = message.OrderId;
             Bus.Send<ShipToFedex>(s => s.OrderId = message.OrderId);
             RequestUtcTimeout<FedexTimedout>(TimeSpan.FromSeconds(15));
@@ -22,6 +24,7 @@ namespace Shipping.Sagas
 
         public void Handle(FedexResponse message)
         {
+            Console.WriteLine("Saga: FedexResponse");
             MarkAsComplete();
             ReplyToOriginator<ShippingCompleted>(s =>
                                                      { 
@@ -33,12 +36,16 @@ namespace Shipping.Sagas
 
         public void Timeout(FedexTimedout state)
         {
+            Console.WriteLine("Saga: FedexTimedout");
+
             Bus.Send<ShipToUps>(s => s.OrderId = Data.OrderId);
             RequestUtcTimeout<UpsTimeout>(TimeSpan.FromSeconds(30));
         }
 
         public void Handle(UpsResponse message)
         {
+            Console.WriteLine("Saga: UpsResponse");
+
             MarkAsComplete();
             ReplyToOriginator<ShippingCompleted>(s =>
                                                      {
@@ -50,6 +57,8 @@ namespace Shipping.Sagas
 
         public void Timeout(UpsTimeout state)
         {
+            Console.WriteLine("Saga: UpsTimeout");
+
             MarkAsComplete();
             ReplyToOriginator<ShippingFailed>(s => s.OrderId = Data.OrderId);
         }

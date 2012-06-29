@@ -1,5 +1,5 @@
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Shipping.Commands\bin\Debug\Shipping.Messages.dll
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Shipping.Commands\bin\Debug\Shipping.Messages.pdb
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\Shipping.Messages.dll
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\Shipping.Messages.pdb
+C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Shipping.Commands\bin\Debug\Shipping.Messages.dll
+C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Shipping.Commands\bin\Debug\Shipping.Messages.pdb
+C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\Shipping.Messages.dll
+C:\Users\student\documents\visual studio 2010\Projects\DepartmentIntegration\Shipping.Commands\obj\Debug\Shipping.Messages.pdb

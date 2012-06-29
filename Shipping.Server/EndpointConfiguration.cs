@@ -2,7 +2,7 @@
 
 namespace Shipping.Server
 {
-    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
+    public class EndpointConfiguration : IConfigureThisEndpoint, AsA_Server, IWantCustomInitialization
     {
         public void Init()
         {

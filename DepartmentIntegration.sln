@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Messages", "Shippi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Server", "Shipping.Server\Shipping.Server.csproj", "{3CFC668E-B93B-44EC-AA5A-B95C0873AC25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Fedex.ProxyServer", "Shipping.Fedex.Proxy\Shipping.Fedex.ProxyServer.csproj", "{3C2048FE-7EA8-408A-813D-DF0F44188BDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.ProxyServer", "Shipping.Fedex.Proxy\Shipping.ProxyServer.csproj", "{3C2048FE-7EA8-408A-813D-DF0F44188BDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Sagas", "Sales.Sagas\Sales.Sagas.csproj", "{A1D2FF80-F1B1-4F4E-BF58-1EB3BACC04B7}"
 EndProject

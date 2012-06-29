@@ -53,7 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EndpointConfiguration.cs" />
-    <Compile Include="Mine\ShipToFedexHandler.cs" />
     <Compile Include="Sales\OrderAcceptedHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

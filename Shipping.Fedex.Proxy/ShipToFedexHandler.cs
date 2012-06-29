@@ -3,7 +3,7 @@ using System.Threading;
 using NServiceBus;
 using Shipping.Messages;
 
-namespace Shipping.Fedex.ProxyServer
+namespace Shipping.ProxyServer
 {
     public class ShipToFedexHandler : IHandleMessages<ShipToFedex>
     {
@@ -11,12 +11,14 @@ namespace Shipping.Fedex.ProxyServer
 
         public void Handle(ShipToFedex message)
         {
-            Random rnd = new Random();
+            Console.WriteLine("ProxyServer: ShipToFedex");
+            var rnd = new Random();
 
             Thread.Sleep(rnd.Next(5000, 25000));
 
             Bus.Reply<FedexResponse>(f => f.FedexTrackingCode = Guid.NewGuid());
-            
+
+            Console.WriteLine("ProxyServer: ShipToFedex - DONE");            
         }
     }
 }

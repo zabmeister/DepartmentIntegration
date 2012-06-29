@@ -1,5 +1,6 @@
-﻿using NServiceBus;
-using Sales.Messages;
+﻿using System;
+using NServiceBus;
+using Sales.Events;
 using Shipping.Messages;
 
 namespace Shipping.Server.Sales
@@ -10,7 +11,8 @@ namespace Shipping.Server.Sales
 
         public void Handle(OrderAccepted message)
         {
-            Bus.Send<ShipOrder>(m => m.OrderId = message.OrderId);
+            Console.WriteLine("Order received, sending to shipping");
+            Bus.SendLocal<ShipOrder>(m => m.OrderId = message.OrderId);
         }
     }
 }

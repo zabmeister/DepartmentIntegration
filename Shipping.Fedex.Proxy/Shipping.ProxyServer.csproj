@@ -8,8 +8,8 @@
     <ProjectGuid>{3C2048FE-7EA8-408A-813D-DF0F44188BDB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Shipping.Fedex.ProxyServer</RootNamespace>
-    <AssemblyName>Shipping.Fedex.ProxyServer</AssemblyName>
+    <RootNamespace>Shipping.ProxyServer</RootNamespace>
+    <AssemblyName>Shipping.ProxyServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -55,6 +55,7 @@
     <Compile Include="EndpointConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShipToFedexHandler.cs" />
+    <Compile Include="ShipToUpsHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

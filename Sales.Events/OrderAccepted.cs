@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sales.Messages
+namespace Sales.Events
 {
     public class OrderAccepted
     {

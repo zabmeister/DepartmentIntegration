@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NServiceBus.Testing;
+using Sales.Events;
 using Sales.Messages;
 
 namespace Sales.Sagas.Tests
@@ -19,7 +20,7 @@ namespace Sales.Sagas.Tests
             var placeOrder = new PlaceOrder { OrderId = Guid.NewGuid(), Items = new List<string>{ "Bag", "Chocolate"}};
 
             Test.Saga<BuyersRemorseSaga>()
-                .ExpectTimeoutToBeSetIn<BuyersRemorseTimeout>((to, ts) => ts == TimeSpan.FromSeconds(60))
+                .ExpectTimeoutToBeSetIn<BuyersRemorseTimeout>((to, ts) => ts == TimeSpan.FromSeconds(10))
                 .When(s => s.Handle(placeOrder));
         }
 
