@@ -7,7 +7,8 @@ namespace Shipping.Server
         public void Init()
         {
             Configure.With()
-                     .DefiningEventsAs(t => t.Namespace != null && t.Namespace.Contains(".Messages"));
+                     .DefiningMessagesAs(t => t.Namespace != null && t.Namespace.Contains("Shipping.Messages"))  
+                     .DefiningEventsAs(t => t.Namespace != null && t.Namespace.Contains("Sales.Events"));
         }
     }
 }

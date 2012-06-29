@@ -7,6 +7,9 @@
   <Module PersistentId="7B3CD322-AADC-458A-A2B2-6F7A45418735" ModuleId="Shipping.Server.Test" />
   <Module PersistentId="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD" ModuleId="Shipping.Sagas" />
   <Module PersistentId="49231426-8599-4E9C-8711-57BA4813B73D" ModuleId="Shipping.Commands" />
-  <Module PersistentId="E1E62864-4B55-418B-859F-7706B1A43FE8" ModuleId="Shipping.Events" />
   <Module PersistentId="3C2048FE-7EA8-408A-813D-DF0F44188BDB" ModuleId="Shipping.Fedex.Proxy" />
+  <Module PersistentId="A1D2FF80-F1B1-4F4E-BF58-1EB3BACC04B7" ModuleId="Sales.Sagas" />
+  <Module PersistentId="8A6ED81E-DB7E-48B9-8CA7-6E4AAFAC1838" ModuleId="Sales.Sagas.Tests" />
+  <Module PersistentId="0B25D9B0-852C-4368-B8FD-297166D58342" ModuleId="Sales.Messages" />
+  <Module PersistentId="7A1AC1CD-3946-4183-AE6C-DC880E492E44" ModuleId="Sales.Events" />
 </Modules>

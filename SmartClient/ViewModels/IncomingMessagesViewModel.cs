@@ -1,7 +1,4 @@
 ﻿using System.Collections.ObjectModel;
-using Crm.Events;
-using Microsoft.Practices.Prism.Events;
-using SmartClient.CompositeEvents;
 
 namespace SmartClient.ViewModels
 {
@@ -12,13 +9,6 @@ namespace SmartClient.ViewModels
         public IncomingMessagesViewModel()
         {
             Messages = new ObservableCollection<string> {"Started"};
-            EventAggregatorProvider.Instance.GetEvent<CustomerStatusUpdatedEvent>().Subscribe(OnCustomerStatusUpdatedEvent, ThreadOption.UIThread, true);
-        }
-
-        private void OnCustomerStatusUpdatedEvent(CustomerStatusUpdated message)
-        {
-            Messages.Add(string.Format("[{0}]: {1} - {2}", "CustomerStatusUpdated", message.CustomerId,
-                                       message.CustomerStatus));
         }
     }
 }

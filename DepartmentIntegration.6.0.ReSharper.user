@@ -1,50 +1,252 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="293" fromTop="10" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/d:ViewModels/f:IncomingMessagesViewModel.cs" caret="880" fromTop="23" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/d:Views/f:IncomingMessagesView.xaml.cs" caret="219" fromTop="10" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/f:App.config" caret="0" fromTop="0" />
       <File id="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2/f:CustomerStatusUpdated.cs" caret="134" fromTop="6" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:App.config" caret="321" fromTop="7" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:App.config" caret="0" fromTop="0" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="230" fromTop="9" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="182" fromTop="9" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="295" fromTop="9" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="141" fromTop="5" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/d:CompositeEvents/f:CustomerStatusUpdatedEvent.cs" caret="104" fromTop="5" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:App.config" caret="592" fromTop="14" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="189" fromTop="7" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/f:App.xaml.cs" caret="446" fromTop="12" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:ShipToFedex.cs" caret="44" fromTop="2" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:ShipToUps.cs" caret="43" fromTop="2" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:UpsResponse.cs" caret="40" fromTop="2" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:ShipOrder.cs" caret="43" fromTop="2" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:FedexTimedOut.cs" caret="26" fromTop="0" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingCompanies.cs" caret="0" fromTop="0" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:ShippingCompleted.cs" caret="66" fromTop="4" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingFailed.cs" caret="63" fromTop="4" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:App.config" caret="0" fromTop="0" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:EndpointConfiguration.cs" caret="333" fromTop="9" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:ServerEndpoint.cs" caret="15" fromTop="1" />
+      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="332" fromTop="10" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="1051" fromTop="17" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:App.config" caret="0" fromTop="0" />
+      <File id="49231426-8599-4E9C-8711-57BA4813B73D/f:FedexResponse.cs" caret="105" fromTop="6" />
+      <File id="E7E96149-0BF9-4574-ADD9-258927115790/f:EventAggregatorProvider.cs" caret="0" fromTop="0" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:UpsTimeout.cs" caret="0" fromTop="0" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSagaData.cs" caret="278" fromTop="10" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="1962" fromTop="28" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:EndpointConfiguration.cs" caret="339" fromTop="9" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:ShipToFedexHandler.cs" caret="477" fromTop="17" />
     </RecentFiles>
     <RecentEdits>
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="151" fromTop="4" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="152" fromTop="4" />
-      <File id="AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2/f:CustomerStatusUpdated.cs" caret="31" fromTop="2" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:App.config" caret="321" fromTop="7" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:EndpointConfiguration.cs" caret="239" fromTop="9" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="141" fromTop="8" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="823" fromTop="33" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="519" fromTop="20" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="13" fromTop="0" />
-      <File id="AC8712E4-A45C-4A52-A7E7-7952C100A1C6/f:ServerEndpoint.cs" caret="710" fromTop="17" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/f:EndpointConfiguration.cs" caret="328" fromTop="9" />
-      <File id="2CC63DC3-43EE-4D84-82CD-8FB25C437B3A/d:Handlers/d:Crm/f:CustomerStatusUpdatedHandler.cs" caret="39" fromTop="2" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="2064" fromTop="29" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="948" fromTop="20" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="2064" fromTop="33" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="373" fromTop="6" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="1860" fromTop="26" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="2064" fromTop="32" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingFailed.cs" caret="125" fromTop="6" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="1219" fromTop="13" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="1543" fromTop="24" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="1771" fromTop="23" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="284" fromTop="4" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="2747" fromTop="28" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="2780" fromTop="17" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="159" fromTop="7" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="2185" fromTop="17" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="2361" fromTop="17" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:EndpointConfiguration.cs" caret="44" fromTop="2" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:EndpointConfiguration.cs" caret="333" fromTop="9" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:ServerEndpoint.cs" caret="469" fromTop="18" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:ServerEndpoint.cs" caret="603" fromTop="22" />
+      <File id="3CFC668E-B93B-44EC-AA5A-B95C0873AC25/f:ServerEndpoint.cs" caret="15" fromTop="1" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:EndpointConfiguration.cs" caret="57" fromTop="2" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="1362" fromTop="15" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="625" fromTop="7" />
+      <File id="7B3CD322-AADC-458A-A2B2-6F7A45418735/f:ShippingSagaTest.cs" caret="1051" fromTop="17" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:EndpointConfiguration.cs" caret="348" fromTop="9" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:ShipToFedexHandler.cs" caret="0" fromTop="0" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:ShipToFedexHandler.cs" caret="239" fromTop="9" />
+      <File id="3C2048FE-7EA8-408A-813D-DF0F44188BDB/f:ShipToFedexHandler.cs" caret="477" fromTop="17" />
+      <File id="84A73FBC-32D7-4A4F-A182-FF8AD4F9E7DD/f:ShippingSaga.cs" caret="1962" fromTop="28" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="string" priority="31" />
-      <Item value="Guid`0" priority="64" />
-      <Item value="public" priority="31" />
+      <Item value="string" priority="158" />
+      <Item value="Guid`0" priority="292" />
+      <Item value="public" priority="734" />
       <Item value="AsA_Publisher`0" priority="31" />
       <Item value="AsA_Server`0" priority="31" />
       <Item value="IWantCustomInitialization`0" priority="95" />
       <Item value="CustomerId" priority="31" />
       <Item value="CustomerStatus" priority="32" />
       <Item value="eventMessage" priority="31" />
+      <Item value="message" priority="255" />
+      <Item value="protected" priority="63" />
+      <Item value="override" priority="63" />
+      <Item value="void" priority="124" />
+      <Item value="DataContext" priority="31" />
+      <Item value="IncomingMessagesViewModel`0" priority="63" />
+      <Item value="Messages" priority="63" />
+      <Item value="new" priority="417" />
+      <Item value="ObservableCollection&lt;string&gt;" priority="28" />
+      <Item value="static" priority="286" />
+      <Item value="IBus`0" priority="95" />
+      <Item value="private" priority="31" />
+      <Item value="IEventAggregator`0" priority="31" />
+      <Item value="if" priority="63" />
+      <Item value="_instance" priority="63" />
+      <Item value="EventAggregator" priority="28" />
+      <Item value="return" priority="95" />
+      <Item value="EventAggregatorProvider`0" priority="31" />
+      <Item value="CustomerStatusUpdated`0" priority="63" />
+      <Item value="class" priority="95" />
+      <Item value="Action`0" priority="31" />
+      <Item value="Action" priority="28" />
+      <Item value="threadOption" priority="31" />
+      <Item value="Sagas" priority="31" />
+      <Item value="ShippingSaga`0" priority="31" />
+      <Item value="IAmStartedByMessages" priority="31" />
+      <Item value="IHandleTimeouts" priority="31" />
+      <Item value="Bus" priority="127" />
+      <Item value="m" priority="31" />
+      <Item value="Data" priority="95" />
+      <Item value="this" priority="31" />
+      <Item value="Test" priority="31" />
+      <Item value="When_Saga_Receive_ShipOrder_Should_Start`0" priority="31" />
+      <Item value="var" priority="95" />
+      <Item value="ShipToFedex`0" priority="31" />
+      <Item value="ShippingSaga" priority="87" />
+      <Item value="mySaga" priority="63" />
+      <Item value="ShippingSagaData" priority="28" />
+      <Item value="Id" priority="31" />
+      <Item value="OrderId" priority="64" />
+      <Item value="ShipOrder" priority="28" />
+      <Item value="shipOrder" priority="63" />
+      <Item value="s" priority="255" />
+      <Item value="RequestUtcTimeout`1" priority="31" />
+      <Item value="FedexTimedOut`0" priority="62" />
+      <Item value="Test`0" priority="31" />
+      <Item value="ThreadStaticAttribute`0" priority="63" />
+      <Item value="t" priority="95" />
+      <Item value="TimeSpan`0" priority="63" />
+      <Item value="ReturnInvocation" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="false" priority="31" />
+      <Item value="FedexResponse`0" priority="95" />
+      <Item value="FedexResponse" priority="28" />
+      <Item value="ReplyToOriginator`0" priority="63" />
+      <Item value="f" priority="63" />
+      <Item value="ShippingCompleted`0" priority="31" />
+      <Item value="UpsResponse`0" priority="31" />
+      <Item value="UpsResponse" priority="29" />
+      <Item value="ShippingCompanies`0" priority="31" />
+      <Item value="#define" priority="31" />
+      <Item value="UpsTrackingCode" priority="31" />
+      <Item value="upsResponse" priority="31" />
+      <Item value="UpsTimeout`0" priority="63" />
+      <Item value="ShippingFailed`0" priority="31" />
+      <Item value="FedexTimedout" priority="58" />
+      <Item value="UpsTimeout" priority="29" />
+      <Item value="Random" priority="28" />
+      <Item value="rnd" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Contains`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Guid">
-      <Item value="NewGuid`0" priority="27" />
+      <Item value="NewGuid`0" priority="220" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Crm.Events.CustomerStatusUpdated">
-      <Item value="CustomerId" priority="26" />
-      <Item value="CustomerStatus" priority="22" />
+      <Item value="CustomerId" priority="80" />
+      <Item value="CustomerStatus" priority="76" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NServiceBus.Configure">
+      <Item value="DefaultBuilder`0" priority="26" />
+      <Item value="DefineEndpointName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SmartClient.EventAggregatorProvider">
+      <Item value="Instance" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SmartClient.Events.CustomerStatusUpdatedEvent">
+      <Item value="Publish`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Threading.Dispatcher">
+      <Item value="CurrentDispatcher" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="Invoke`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SmartClient.GuiUtils">
+      <Item value="Syncronize`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Practices.Prism.Events.ThreadOption">
+      <Item value="UIThread" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NServiceBus.IBus">
+      <Item value="Send`0" priority="80" />
+      <Item value="Reply`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Sagas.ShippingSaga">
+      <Item value="MarkAsComplete`0" priority="26" />
+      <Item value="Data" priority="26" />
+      <Item value="Timeout`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Sagas.ShippingSagaData">
+      <Item value="OrderId" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Commands.ShipOrder">
+      <Item value="OrderId" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NServiceBus.Testing.Saga`1">
+      <Item value="WhenReceivesMessageFrom`0" priority="26" />
+      <Item value="When`0" priority="26" />
+      <Item value="ExpectSend`1" priority="83" />
+      <Item value="ExpectTimeoutToBeSetIn`1" priority="26" />
+      <Item value="ExpectPublish`1" priority="26" />
+      <Item value="ExpectReplyToOrginator`1" priority="27" />
+      <Item value="WhenSagaTimesOut`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Commands.ShipToFedex">
+      <Item value="OrderId" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Commands.ShipToUps">
+      <Item value="OrderId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="53" />
+      <Item value="FromMinutes`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NServiceBus.Testing.Test">
+      <Item value="Initialize`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Messages.ShippingCompleted">
+      <Item value="ShippingCompany" priority="53" />
+      <Item value="TrackingCode" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Messages.FedexResponse">
+      <Item value="FedexTrackingCode" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Shipping.Sagas.ShippingCompanies">
+      <Item value="Fedex" priority="27" />
+      <Item value="Ups" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Messages.UpsResponse">
+      <Item value="UpsTrackingCode" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Shipping.Messages.ShipOrder">
+      <Item value="OrderId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="NextDouble`0" priority="26" />
+      <Item value="Next`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
@@ -65,4 +267,18 @@
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestClassElement" TypeName="Shipping.Sagas.Tests.ShippingSagaTest" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_fedex_response_received_should_send_shipping_completed" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_fedex_response_received_should_send_shipping_completed" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_fedex_timeout_should_send_to_ups" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_fedex_timeout_should_send_to_ups" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_fedex_times_out_should_send_timeout" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_fedex_times_out_should_send_timeout" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_shiporder_received_should_send_fedex_message" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_shiporder_received_should_send_fedex_message" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_ups_response_received_should_send_shipping_completed" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_ups_response_received_should_send_shipping_completed" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+        <UnitTestElement Provider="MSTest" Id="Shipping.Sagas.Tests.ShippingSagaTest.When_ups_timeout_should_send_shipping_failed" ParentId="Shipping.Sagas.Tests.ShippingSagaTest" type="MsTestTestMethodElement" MethodName="When_ups_timeout_should_send_shipping_failed" Project="7B3CD322-AADC-458A-A2B2-6F7A45418735" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
 </Configuration>

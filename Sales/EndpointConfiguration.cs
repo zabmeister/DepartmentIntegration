@@ -7,7 +7,7 @@ namespace Sales.Server
         public void Init()
         {
             Configure.With()
-                     .DefiningEventsAs(t => t.Namespace != null && t.Namespace.Contains(".Events"));
+                     .DefiningMessagesAs(t => t.Namespace != null && t.Namespace.Contains("Sales.Messages"));
         }
     }
 }

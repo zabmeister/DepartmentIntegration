@@ -93,9 +93,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EventAggregatorProvider.cs" />
-    <Compile Include="CompositeEvents\CustomerStatusUpdatedEvent.cs" />
     <Compile Include="GuiUtils.cs" />
-    <Compile Include="Handlers\Crm\CustomerStatusUpdatedHandler.cs" />
     <Compile Include="ViewModels\IncomingMessagesViewModel.cs" />
     <Compile Include="Views\IncomingMessagesView.xaml.cs">
       <DependentUpon>IncomingMessagesView.xaml</DependentUpon>
@@ -133,12 +131,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Events\Crm.Events.csproj">
-      <Project>{AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2}</Project>
-      <Name>Crm.Events</Name>
-    </ProjectReference>
+    <Folder Include="CompositeEvents\" />
+    <Folder Include="Handlers\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

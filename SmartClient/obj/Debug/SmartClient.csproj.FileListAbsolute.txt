@@ -1,11 +1,9 @@
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\SmartClient.exe.config
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\SmartClient.exe
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\SmartClient.pdb
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\Crm.Events.dll
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\log4net.dll
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\NServiceBus.Core.dll
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\NServiceBus.dll
-C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\Crm.Events.pdb
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\NServiceBus.pdb
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\NServiceBus.xml
 C:\Users\student\Documents\Visual Studio 2010\Projects\DepartmentIntegration\SmartClient\bin\Debug\NServiceBus.Core.pdb

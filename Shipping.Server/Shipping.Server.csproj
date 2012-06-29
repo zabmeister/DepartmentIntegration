@@ -53,18 +53,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EndpointConfiguration.cs" />
+    <Compile Include="Mine\ShipToFedexHandler.cs" />
+    <Compile Include="Sales\OrderAcceptedHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServerEndpoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sales.Events\Sales.Events.csproj">
+      <Project>{7A1AC1CD-3946-4183-AE6C-DC880E492E44}</Project>
+      <Name>Sales.Events</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shipping.Commands\Shipping.Messages.csproj">
       <Project>{49231426-8599-4E9C-8711-57BA4813B73D}</Project>
       <Name>Shipping.Messages</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

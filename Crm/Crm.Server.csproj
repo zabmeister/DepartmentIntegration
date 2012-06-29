@@ -57,12 +57,6 @@
     <Compile Include="ServerEndpoint.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Events\Crm.Events.csproj">
-      <Project>{AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2}</Project>
-      <Name>Crm.Events</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -52,18 +52,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Handlers\Crm\CustomerStatusUpdatedHandler.cs" />
     <Compile Include="EndpointConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Events\Crm.Events.csproj">
-      <Project>{AA6F7498-5F01-4E5A-B44A-3D500ED7ADC2}</Project>
-      <Name>Crm.Events</Name>
-    </ProjectReference>
+    <Compile Include="ServerEndpoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sales.Messages\Sales.Messages.csproj">
+      <Project>{0B25D9B0-852C-4368-B8FD-297166D58342}</Project>
+      <Name>Sales.Messages</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
